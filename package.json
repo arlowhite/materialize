@@ -11,9 +11,11 @@
     "url": "git://github.com/Dogfalo/materialize.git"
   },
   "dependencies": {
+  },
+  "peerDependencies": {
     "hammerjs": "^2.0.4",
     "jquery": "^2.1.4",
-    "node-archiver": "^0.3.0"
+    "velocity-animate": "^1.2.3"
   },
   "engine": "node >= 0.10",
   "devDependencies": {
@@ -40,6 +42,7 @@
     "jasmine": "^2.3.2",
     "jasmine-jquery": "^2.1.1",
     "jquery": "^2.1.4",
+    "node-archiver": "^0.3.0",
     "node-sass": "^3.4.2",
     "phantomjs": "^1.9.18"
   },

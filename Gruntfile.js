@@ -129,11 +129,7 @@ module.exports = function(grunt) {
         // the files to concatenate
         src: [
           "js/initial.js",
-          "js/jquery.easing.1.3.js",
           "js/animation.js",
-          "js/velocity.min.js",
-          "js/hammer.min.js",
-          "js/jquery.hammer.js",
           "js/global.js",
           "js/collapsible.js",
           "js/dropdown.js",
@@ -166,11 +162,7 @@ module.exports = function(grunt) {
         // the files to concatenate
         src: [
           "js/initial.js",
-          "js/jquery.easing.1.3.js",
           "js/animation.js",
-          "js/velocity.min.js",
-          "js/hammer.min.js",
-          "js/jquery.hammer.js",
           "js/global.js",
           "js/collapsible.js",
           "js/dropdown.js",
@@ -252,11 +244,7 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'sass/', src: ['components/**/*'], dest: 'materialize-src/sass/'},
           {expand: true, cwd: 'js/', src: [
             "initial.js",
-            "jquery.easing.1.3.js",
             "animation.js",
-            "velocity.min.js",
-            "hammer.min.js",
-            "jquery.hammer.js",
             "global.js",
             "collapsible.js",
             "dropdown.js",
@@ -541,7 +529,7 @@ module.exports = function(grunt) {
     // Removes console logs
     removelogging: {
       source: {
-        src: ["js/**/*.js", "!js/velocity.min.js"],
+        src: ["js/**/*.js"],
         options: {
           // see below for options. this is optional.
         }
