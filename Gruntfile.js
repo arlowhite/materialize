@@ -129,6 +129,7 @@ module.exports = function(grunt) {
         // the files to concatenate
         src: [
           "js/initial.js",
+          "js/jquery.easing.1.3.js",
           "js/animation.js",
           "js/global.js",
           "js/collapsible.js",
@@ -162,6 +163,7 @@ module.exports = function(grunt) {
         // the files to concatenate
         src: [
           "js/initial.js",
+          "js/jquery.easing.1.3.js",
           "js/animation.js",
           "js/global.js",
           "js/collapsible.js",
@@ -244,6 +246,7 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'sass/', src: ['components/**/*'], dest: 'materialize-src/sass/'},
           {expand: true, cwd: 'js/', src: [
             "initial.js",
+            "jquery.easing.1.3.js",
             "animation.js",
             "global.js",
             "collapsible.js",
